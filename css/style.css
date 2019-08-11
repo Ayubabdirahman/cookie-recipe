@@ -20,7 +20,6 @@
 	color: #ffff;
 	font-family: 'Ubuntu', sans-serif;
 	bottom: 5%;
-
 }
 
 /* title section */
@@ -38,10 +37,103 @@ h1 {
 	font-weight: bolder;
 	font-family: 'Montserrat-black';
 	color: #ffff;
-	 transition: width 2s, height 2s, transform 2s;
+	transition: width 2s, height 2s, transform 2s;
 }
 
-a:hover{
+a:hover {
 	text-decoration: none;
+}
 
+.carousel-item {
+	width: 5%;
+	left: 2%;
+	margin-top: 0;
+	margin-bottom: 20%;
+	display: block;
+}
+
+.carousel-control-prev {
+	left: 0;
+}
+
+.carousel-control-next {
+	right: 0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	top: 70px;
+	position: absolute;
+	bottom: 70px;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 18%;
+}
+
+.carousel-inner {
+	background-color: #f38181;
+	height: 600px;
+	padding: 30px 15%;
+	justify-content: center;
+	bottom: 20px;
+}
+
+#features {
+	padding: 7% 15%;
+	background-color: #ffff;
+	position: relative;
+}
+
+.feature-box {
+	text-align: center;
+	padding: 5%;
+}
+
+h3 {
+	font-family: "Montserrat-bold";
+	font-weight: bold;
+}
+
+p {
+	color: #8f8f8f;
+}
+
+.icon {
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+
+.icon:hover {
+	color: #ff4c68;
+}
+
+.footer {
+	padding: 3% 5%;
+	text-align: center;
+}
+
+.footer p {
+	font-size: 20px;
+}
+
+.ic1:hover {
+	color: #ffff;
+	background-color: #38A1F3;
+}
+
+.ic2:hover {
+	color: #4267b2;
+	background-color: #ffff;
+}
+
+.ic3:hover {
+	color: #BD081C;
+}
+
+.ic4:hover {
+	color: #FFFC00;
+}
+.copyright-text span{
+	color: #FF0000;
 }
